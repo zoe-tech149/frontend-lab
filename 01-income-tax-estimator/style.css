@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 72rem;
+  margin-inline:auto;
+  padding: 2rem 1rem;
+}
+
+.estimator-layout {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+}
+
+.income-panel {
+left: 0;
+background-color: red;
+}
+
+.results-panel {
+right: 0;
+background-color: pink;
+}
