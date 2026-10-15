@@ -27,12 +27,14 @@ main {
 }
 
 .income-panel {
+  color: white;
   padding: 20px;
   border-radius: 12px;
   background-color: var(--color-navy);
 }
 
 .results-panel {
+  color: white;
   padding: 20px;
   border-radius: 12px;
   background-color: var(--color-blue);
