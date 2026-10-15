@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-navy: #14213D;
+  --color-blue: #2563EB; 
+}
+
 body {
   margin: 0;
 }
@@ -24,11 +29,11 @@ main {
 .income-panel {
   padding: 20px;
   border-radius: 12px;
-  background-color: red;
+  background-color: var(--color-navy);
 }
 
 .results-panel {
   padding: 20px;
   border-radius: 12px;
-  background-color: pink;
+  background-color: var(--color-blue);
 }
