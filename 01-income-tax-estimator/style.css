@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+main {
+  max-width: 72rem;
+}
+
 .estimator-layout {
   width: 100%;
   display: grid;
