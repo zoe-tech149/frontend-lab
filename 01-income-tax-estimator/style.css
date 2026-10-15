@@ -23,12 +23,12 @@ main {
 
 .income-panel {
   padding: 20px;
-  left: 0;
+  border-radius: 12px;
   background-color: red;
 }
 
 .results-panel {
   padding: 20px;
-  right: 0;
+  border-radius: 12px;
   background-color: pink;
 }
