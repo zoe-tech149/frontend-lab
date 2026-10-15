@@ -17,3 +17,8 @@ body {
   overflow-x: hidden;
   padding-top: 20px;
 }
+
+.income-panel {
+  left: 0;
+}
+
