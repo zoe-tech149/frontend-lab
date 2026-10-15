@@ -15,18 +15,20 @@ main {
 }
 
 .estimator-layout {
-  width: 50%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
   gap: 1rem;
 }
 
 .income-panel {
-left: 0;
-background-color: red;
+  padding: 20px;
+  left: 0;
+  background-color: red;
 }
 
 .results-panel {
-right: 0;
-background-color: pink;
+  padding: 20px;
+  right: 0;
+  background-color: pink;
 }
