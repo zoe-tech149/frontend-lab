@@ -20,31 +20,54 @@
 
       <p>Estimate your annual income tax in South Africa.</p>
 
-      <form>
-        <label for="annual-tax-income">
-          Annual taxable income(R):
-          <input 
-            type="number"
-            id="anual-tax-income"
+      <div class="estimator-layout">
+
+        <section class="income-panel">
+
+          <h2>Annual Income tax</h2>
+
+          <form>
+
+            <label for="annual-tax-income">
+              Annual taxable income (R):
+
+              <input 
+              type="number"
+              id="annual-tax-income"
+              name="annual-tax-income"
+              step="0.01"
+              min="0.00"
+              inputmode="decimal"
+              placeholder="0.00"
+              required
             >
-        </label>
 
-        <button>Calculate tax</button>
-      </form>
+            </label>
 
-      <div class="results-right-panel">
+            <button type="submit">Calculate tax</button>
 
-        <h2>Estimated annual tax:</h2>
-        <p id="estimated-annual-tax"></p>
+          </form>
 
-        <hr>
+        </section>
 
-        <h2>Income after estimated tax:</h2>
-        <p id="income-after-tax"></p>
+        <section class="results-panel">
+
+          <h2>Your estimate</h2>
+           
+          <h3>Estimated annual tax:</h3>
+          <p id="estimated-annual-tax" >Enter taxable income</p>
+
+          <hr>
+
+          <h3>Income after estimated tax:</h3>
+          <p id="income-after-tax">Calculate an estimate</p>
+
+        </section>
 
       </div>
 
-      <p>Taxpayer is an individual under 65 years, eligible for primary reebate and have no deductions or tax credits.</p>
+      <p class="tax-disclaimer"><strong>Disclaimer:</strong> This calculation provides a high-level estimate based on the <strong>2026/27 tax year</strong> tables. It assumes the taxpayer is an <strong>individual under 65</strong> who is eligible only for the <strong>primary rebate</strong>, with <strong>no additional deductions or tax credits</strong> applied. Please note that this calculation is for informational purposes only and <strong>does not constitute a complete tax assessment</strong> or official financial advice.</p>
+
 
     </main>
     
