@@ -69,3 +69,8 @@ button {
   border-radius: 12px;
   background-color: var(--color-blue);
 }
+
+.results-panel h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
