@@ -89,3 +89,10 @@ button {
   font-weight: 700;
   overflow-wrap: anywhere;
 }
+
+.tax-disclaimer {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #485563;
+}
