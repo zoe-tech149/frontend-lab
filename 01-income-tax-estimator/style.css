@@ -51,6 +51,12 @@ button {
   cursor: pointer;
 }
 
+.income-panel form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .results-panel {
   color: white;
   padding: 20px;
