@@ -57,6 +57,12 @@ button {
   gap: 1rem;
 }
 
+.income-panel label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .results-panel {
   color: white;
   padding: 20px;
