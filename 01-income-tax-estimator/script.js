@@ -7,8 +7,18 @@ form.addEventListener('submit', function(event){
 
   const incomeInputEl = document.querySelector('#annual-tax-income');
 
+  const validationResultsEl = document.querySelector('#validation-results');
+
+  if (incomeInputEl.value === "") {
+    validationResultsEl.textContent = "Please enter your anual income.";
+    return;
+  }
+
   const incomeInputValue = Number(incomeInputEl.value);
+
+  
 
 })
 
 
+ 
