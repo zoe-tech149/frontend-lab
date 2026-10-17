@@ -7,8 +7,8 @@ form.addEventListener('submit', function(event){
 
   const incomeInputEl = document.querySelector('#annual-tax-income');
 
-  const incomeInputValue = incomeInputEl.value;
-  
+  const incomeInputValue = Number(incomeInputEl.value);
+
 })
 
 
