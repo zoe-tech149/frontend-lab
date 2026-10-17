@@ -11,6 +11,8 @@ form.addEventListener('submit', function(event){
   const validationResultsEl =
   document.querySelector('#validation-results');
 
+  validationResultsEl.textContent = "";
+  
   if (!Number.isFinite(incomeInputValue)) {
     validationResultsEl.textContent = "Please enter a valid income.";
     return;
