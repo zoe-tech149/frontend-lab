@@ -41,6 +41,8 @@ form.addEventListener('submit', function(event){
   const estimatedTax = taxBeforeRebate - primaryRebate;
 
   const finalTax = Math.max(0, estimatedTax);
+
+  const incomeAfterTax = incomeInputValue - finalTax;
 });
 
 
