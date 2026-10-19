@@ -22,7 +22,8 @@ form.addEventListener('submit', function(event){
 
   if (incomeInputValue <= 245100) {
     taxBeforeRebate = incomeInputValue * 0.18;
-    console.log(taxBeforeRebate);
+  } else if (incomeInputValue > 245100 && incomeInputValue <= 383100) {
+    taxBeforeRebate = 44118 + (incomeInputValue  - 245100) * 0.26
   }
 
 });
