@@ -36,6 +36,10 @@ form.addEventListener('submit', function(event){
     taxBeforeRebate = 666339 + (incomeInputValue - 1878600) * 0.45;
   }
 
+  const primaryRebate = 17820;
+
+  
+
 });
 
 
