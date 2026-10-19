@@ -1,5 +1,9 @@
 const form = document.querySelector('#tax-input-form');
 
+const estimatedAnnualTax = document.querySelector('#estimated-annual-tax');
+
+const incomeAfterTaxEl = document.querySelector('#income-after-tax');
+
 form.addEventListener('submit', function(event){
   
   event.preventDefault();
@@ -43,6 +47,12 @@ form.addEventListener('submit', function(event){
   const finalTax = Math.max(0, estimatedTax);
 
   const incomeAfterTax = incomeInputValue - finalTax;
+
+  const formatZAR = new Intl.NumberFormat('en-ZA', {
+  style: 'currency',
+  currency: 'ZAR'
+  });
+  
 });
 
 
