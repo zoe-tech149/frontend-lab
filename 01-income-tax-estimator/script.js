@@ -17,7 +17,13 @@ form.addEventListener('submit', function(event){
     validationResultsEl.textContent = "Please enter a valid income.";
     return;
   }
- 
+
+  let taxBeforeRebate;
+
+  if (incomeInputValue <= 245100) {
+    taxBeforeRebate = incomeInputValue * 0.18;
+    console.log(taxBeforeRebate);
+  }
 
 });
 
