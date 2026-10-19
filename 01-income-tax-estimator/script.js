@@ -38,7 +38,7 @@ form.addEventListener('submit', function(event){
 
   const primaryRebate = 17820;
 
-  
+  const estimatedTax = taxBeforeRebate - primaryRebate;
 
 });
 
