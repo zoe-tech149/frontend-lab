@@ -26,7 +26,8 @@ form.addEventListener('submit', function(event){
     taxBeforeRebate = 44118 + (incomeInputValue  - 245100) * 0.26;
   } else if (incomeInputValue > 383100 && incomeInputValue <= 530200) {
     taxBeforeRebate = 79998 + (incomeInputValue  - 383100) * 0.31;
-    console.log(taxBeforeRebate);
+  } else if (incomeInputValue > 530200 && incomeInputValue <= 695800) {
+    taxBeforeRebate = 125599 + (incomeInputValue - 530200) * 0.36;
   }
 
 });
