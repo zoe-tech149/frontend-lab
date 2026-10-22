@@ -28,15 +28,8 @@ const tulipsSubtotal = products[2].price * products[2].quantity;
 
 const cartTotal = sunflowerSubtotal + liliesSubtotal + tulipsSubtotal;
 
-products[1].quantity = 3;
-
-console.log(products[1].quantity);
-console.log(liliesSubtotal);
-console.log(cartTotal);
-
-const updatedLiliesSubtotal =
-products[1].price * products[1].quantity;
-
-console.log(updatedLiliesSubtotal);
-console.log(cartTotal);
+function calculateSubtotal(product) {
+  
+  return
+}
 
