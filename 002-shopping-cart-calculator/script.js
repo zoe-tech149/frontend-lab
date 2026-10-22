@@ -1,20 +1,20 @@
 const products = [
   {
     id: 1,
-    name: "Sunflower", 
-    price: 2400, 
+    name: "Sunflowers", 
+    price: 2399, 
     quantity: 1,
   },
   {
     id: 2,
     name: "Lillies", 
-    price: 1500, 
+    price: 1499, 
     quantity: 2,
   },
   {
     id: 3,
     name: "Tulips", 
-    price: 2000, 
+    price: 1999, 
     quantity: 1,
   },
 ]
