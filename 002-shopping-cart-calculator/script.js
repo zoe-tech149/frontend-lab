@@ -19,6 +19,10 @@ const products = [
   },
 ]
 
+
+const sunflowerSubtotal = products[0].price * products[0].quantity;
+
 const liliesSubtotal = products[1].price * products[1].quantity;
 
+const tulipsSubtotal = products[2].price * products[2].quantity
 
