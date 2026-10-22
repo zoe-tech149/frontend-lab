@@ -1,13 +1,13 @@
 const products = [
   {
     id: 1,
-    name: "Sunflowers", 
+    name: "Sunflower", 
     price: 2399, 
     quantity: 1,
   },
   {
     id: 2,
-    name: "Lillies", 
+    name: "Lilies", 
     price: 1499, 
     quantity: 2,
   },
@@ -18,4 +18,7 @@ const products = [
     quantity: 1,
   },
 ]
+
+const liliesSubtotal = products[1].price * products[1].quantity;
+
 
